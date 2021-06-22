@@ -1,0 +1,354 @@
+2020-04-06 17:47:08,294 -- [test_register.py-->line:31] - ERROR: 用例--注册成功-带注册名--执行不通过
+2020-04-06 17:47:08,294 -- [test_register.py-->line:32] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 17:47:08,295 -- [test_register.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 17:47:08,295 -- [test_register.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 17:47:08,687 -- [test_register.py-->line:31] - ERROR: 用例--成功-不带用户名--执行不通过
+2020-04-06 17:47:08,687 -- [test_register.py-->line:32] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 17:47:08,687 -- [test_register.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 17:47:08,688 -- [test_register.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 17:47:08,799 -- [test_register.py-->line:38] - INFO: 用例--不输入手机号--执行通过
+2020-04-06 17:47:08,902 -- [test_register.py-->line:38] - INFO: 用例--手机号长度10位--执行通过
+2020-04-06 17:47:09,015 -- [test_register.py-->line:38] - INFO: 用例--手机号长度12位--执行通过
+2020-04-06 17:47:09,128 -- [test_register.py-->line:38] - INFO: 用例--手机号含有非法字符--执行通过
+2020-04-06 17:47:09,491 -- [test_register.py-->line:38] - INFO: 用例--已注册过的手机号--执行通过
+2020-04-06 17:47:09,615 -- [test_register.py-->line:38] - INFO: 用例--密码7位--执行通过
+2020-04-06 17:47:09,754 -- [test_register.py-->line:38] - INFO: 用例--密码17位--执行通过
+2020-04-06 17:47:09,863 -- [test_register.py-->line:38] - INFO: 用例--不输入密码--执行通过
+2020-04-06 17:47:09,970 -- [test_register.py-->line:38] - INFO: 用例--注册名11位--执行通过
+2020-04-06 17:47:10,074 -- [test_register.py-->line:38] - INFO: 用例--类型输入非0，1内容--执行通过
+2020-04-06 17:47:10,443 -- [test_register.py-->line:31] - ERROR: 用例--不输入类型--执行不通过
+2020-04-06 17:47:10,443 -- [test_register.py-->line:32] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 17:47:10,443 -- [test_register.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 17:47:10,443 -- [test_register.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 17:57:44,989 -- [test_register.py-->line:31] - ERROR: 用例--注册成功-带注册名--执行不通过
+2020-04-06 17:57:44,996 -- [test_register.py-->line:32] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 17:57:44,997 -- [test_register.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 17:57:44,997 -- [test_register.py-->line:36] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 17:57:46,135 -- [test_register.py-->line:31] - ERROR: 用例--成功-不带用户名--执行不通过
+2020-04-06 17:57:46,136 -- [test_register.py-->line:32] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 17:57:46,136 -- [test_register.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 17:57:46,136 -- [test_register.py-->line:36] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 17:57:46,332 -- [test_register.py-->line:40] - INFO: 用例--不输入手机号--执行通过
+2020-04-06 17:57:46,526 -- [test_register.py-->line:40] - INFO: 用例--手机号长度10位--执行通过
+2020-04-06 17:57:46,679 -- [test_register.py-->line:40] - INFO: 用例--手机号长度12位--执行通过
+2020-04-06 17:57:46,781 -- [test_register.py-->line:40] - INFO: 用例--手机号含有非法字符--执行通过
+2020-04-06 17:57:47,047 -- [test_register.py-->line:40] - INFO: 用例--已注册过的手机号--执行通过
+2020-04-06 17:57:47,469 -- [test_register.py-->line:40] - INFO: 用例--密码7位--执行通过
+2020-04-06 17:57:47,633 -- [test_register.py-->line:40] - INFO: 用例--密码17位--执行通过
+2020-04-06 17:57:47,736 -- [test_register.py-->line:40] - INFO: 用例--不输入密码--执行通过
+2020-04-06 17:57:47,846 -- [test_register.py-->line:40] - INFO: 用例--注册名11位--执行通过
+2020-04-06 17:57:47,944 -- [test_register.py-->line:40] - INFO: 用例--类型输入非0，1内容--执行通过
+2020-04-06 17:57:48,212 -- [test_register.py-->line:31] - ERROR: 用例--不输入类型--执行不通过
+2020-04-06 17:57:48,213 -- [test_register.py-->line:32] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 17:57:48,213 -- [test_register.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 17:57:48,213 -- [test_register.py-->line:36] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:04:09,020 -- [test_login.py-->line:31] - ERROR: 用例--登录成功--执行不通过
+2020-04-06 18:04:09,021 -- [test_login.py-->line:32] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:04:09,021 -- [test_login.py-->line:33] - DEBUG: 实际结果：{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:04:09,022 -- [test_login.py-->line:36] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_login.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-04-06 18:04:09,169 -- [test_login.py-->line:31] - ERROR: 用例--手机号为空--执行不通过
+2020-04-06 18:04:09,169 -- [test_login.py-->line:32] - DEBUG: 预期结果：{'code': 1, 'msg': '手机号码为空'}
+2020-04-06 18:04:09,170 -- [test_login.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '手机号码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:04:09,170 -- [test_login.py-->line:36] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_login.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-06 18:04:09,280 -- [test_login.py-->line:31] - ERROR: 用例--密码为空--执行不通过
+2020-04-06 18:04:09,280 -- [test_login.py-->line:32] - DEBUG: 预期结果：{'code': 1, 'msg': '密码为空'}
+2020-04-06 18:04:09,280 -- [test_login.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:04:09,280 -- [test_login.py-->line:36] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_login.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-06 18:04:09,559 -- [test_login.py-->line:40] - INFO: 用例--手机号未注册--执行通过
+2020-04-06 18:04:09,880 -- [test_login.py-->line:40] - INFO: 用例--密码错误--执行通过
+2020-04-06 18:04:11,024 -- [test_login.py-->line:40] - INFO: 用例--手机号格式错误--执行通过
+2020-04-06 18:04:11,442 -- [test_register.py-->line:31] - ERROR: 用例--注册成功-带注册名--执行不通过
+2020-04-06 18:04:11,442 -- [test_register.py-->line:32] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:04:11,442 -- [test_register.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:04:11,443 -- [test_register.py-->line:36] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:04:11,894 -- [test_register.py-->line:31] - ERROR: 用例--成功-不带用户名--执行不通过
+2020-04-06 18:04:11,894 -- [test_register.py-->line:32] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:04:11,894 -- [test_register.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:04:11,895 -- [test_register.py-->line:36] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:04:12,029 -- [test_register.py-->line:40] - INFO: 用例--不输入手机号--执行通过
+2020-04-06 18:04:13,536 -- [test_register.py-->line:40] - INFO: 用例--手机号长度10位--执行通过
+2020-04-06 18:04:13,669 -- [test_register.py-->line:40] - INFO: 用例--手机号长度12位--执行通过
+2020-04-06 18:04:14,014 -- [test_register.py-->line:40] - INFO: 用例--手机号含有非法字符--执行通过
+2020-04-06 18:04:14,344 -- [test_register.py-->line:40] - INFO: 用例--已注册过的手机号--执行通过
+2020-04-06 18:04:14,471 -- [test_register.py-->line:40] - INFO: 用例--密码7位--执行通过
+2020-04-06 18:04:14,653 -- [test_register.py-->line:40] - INFO: 用例--密码17位--执行通过
+2020-04-06 18:04:14,765 -- [test_register.py-->line:40] - INFO: 用例--不输入密码--执行通过
+2020-04-06 18:04:14,873 -- [test_register.py-->line:40] - INFO: 用例--注册名11位--执行通过
+2020-04-06 18:04:14,975 -- [test_register.py-->line:40] - INFO: 用例--类型输入非0，1内容--执行通过
+2020-04-06 18:04:15,234 -- [test_register.py-->line:31] - ERROR: 用例--不输入类型--执行不通过
+2020-04-06 18:04:15,234 -- [test_register.py-->line:32] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:04:15,234 -- [test_register.py-->line:33] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:04:15,235 -- [test_register.py-->line:36] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 28, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:23:41,058 -- [test_login.py-->line:34] - ERROR: 用例--注册成功-带注册名--执行不通过
+2020-04-06 18:23:41,058 -- [test_login.py-->line:35] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:23:41,059 -- [test_login.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:23:41,059 -- [test_login.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_login.py", line 31, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:23:41,580 -- [test_login.py-->line:34] - ERROR: 用例--成功-不带用户名--执行不通过
+2020-04-06 18:23:41,581 -- [test_login.py-->line:35] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:23:41,581 -- [test_login.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:23:41,581 -- [test_login.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_login.py", line 31, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:23:41,716 -- [test_login.py-->line:43] - INFO: 用例--不输入手机号--执行通过
+2020-04-06 18:23:41,817 -- [test_login.py-->line:43] - INFO: 用例--手机号长度10位--执行通过
+2020-04-06 18:23:41,926 -- [test_login.py-->line:43] - INFO: 用例--手机号长度12位--执行通过
+2020-04-06 18:23:42,028 -- [test_login.py-->line:43] - INFO: 用例--手机号含有非法字符--执行通过
+2020-04-06 18:23:42,327 -- [test_login.py-->line:43] - INFO: 用例--已注册过的手机号--执行通过
+2020-04-06 18:23:42,468 -- [test_login.py-->line:43] - INFO: 用例--密码7位--执行通过
+2020-04-06 18:23:42,570 -- [test_login.py-->line:43] - INFO: 用例--密码17位--执行通过
+2020-04-06 18:23:42,668 -- [test_login.py-->line:43] - INFO: 用例--不输入密码--执行通过
+2020-04-06 18:23:42,766 -- [test_login.py-->line:43] - INFO: 用例--注册名11位--执行通过
+2020-04-06 18:23:42,866 -- [test_login.py-->line:43] - INFO: 用例--类型输入非0，1内容--执行通过
+2020-04-06 18:23:43,146 -- [test_login.py-->line:34] - ERROR: 用例--不输入类型--执行不通过
+2020-04-06 18:23:43,146 -- [test_login.py-->line:35] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:23:43,146 -- [test_login.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:23:43,147 -- [test_login.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_login.py", line 31, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:23:43,269 -- [test_register.py-->line:34] - ERROR: 用例--注册成功-带注册名--执行不通过
+2020-04-06 18:23:43,270 -- [test_register.py-->line:35] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:23:43,270 -- [test_register.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:23:43,270 -- [test_register.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 31, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:23:43,378 -- [test_register.py-->line:34] - ERROR: 用例--成功-不带用户名--执行不通过
+2020-04-06 18:23:43,378 -- [test_register.py-->line:35] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:23:43,379 -- [test_register.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:23:43,379 -- [test_register.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 31, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:23:43,488 -- [test_register.py-->line:43] - INFO: 用例--不输入手机号--执行通过
+2020-04-06 18:23:43,589 -- [test_register.py-->line:43] - INFO: 用例--手机号长度10位--执行通过
+2020-04-06 18:23:43,694 -- [test_register.py-->line:43] - INFO: 用例--手机号长度12位--执行通过
+2020-04-06 18:23:43,799 -- [test_register.py-->line:43] - INFO: 用例--手机号含有非法字符--执行通过
+2020-04-06 18:23:43,910 -- [test_register.py-->line:43] - INFO: 用例--已注册过的手机号--执行通过
+2020-04-06 18:23:44,012 -- [test_register.py-->line:43] - INFO: 用例--密码7位--执行通过
+2020-04-06 18:23:44,109 -- [test_register.py-->line:43] - INFO: 用例--密码17位--执行通过
+2020-04-06 18:23:44,215 -- [test_register.py-->line:43] - INFO: 用例--不输入密码--执行通过
+2020-04-06 18:23:45,522 -- [test_register.py-->line:43] - INFO: 用例--注册名11位--执行通过
+2020-04-06 18:23:45,649 -- [test_register.py-->line:43] - INFO: 用例--类型输入非0，1内容--执行通过
+2020-04-06 18:23:45,756 -- [test_register.py-->line:34] - ERROR: 用例--不输入类型--执行不通过
+2020-04-06 18:23:45,756 -- [test_register.py-->line:35] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:23:45,756 -- [test_register.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:23:45,756 -- [test_register.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 31, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:27:01,323 -- [test_login.py-->line:34] - ERROR: 用例--登录成功--执行不通过
+2020-04-06 18:27:01,324 -- [test_login.py-->line:35] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:27:01,324 -- [test_login.py-->line:36] - DEBUG: 实际结果：{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:27:01,324 -- [test_login.py-->line:39] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_login.py", line 31, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-04-06 18:27:01,451 -- [test_login.py-->line:34] - ERROR: 用例--手机号为空--执行不通过
+2020-04-06 18:27:01,452 -- [test_login.py-->line:35] - DEBUG: 预期结果：{'code': 1, 'msg': '手机号码为空'}
+2020-04-06 18:27:01,452 -- [test_login.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '手机号码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:27:01,452 -- [test_login.py-->line:39] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_login.py", line 31, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-06 18:27:02,036 -- [test_login.py-->line:34] - ERROR: 用例--密码为空--执行不通过
+2020-04-06 18:27:02,036 -- [test_login.py-->line:35] - DEBUG: 预期结果：{'code': 1, 'msg': '密码为空'}
+2020-04-06 18:27:02,037 -- [test_login.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:27:02,037 -- [test_login.py-->line:39] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_login.py", line 31, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-06 18:27:02,309 -- [test_login.py-->line:43] - INFO: 用例--手机号未注册--执行通过
+2020-04-06 18:27:03,588 -- [test_login.py-->line:43] - INFO: 用例--密码错误--执行通过
+2020-04-06 18:27:03,715 -- [test_login.py-->line:43] - INFO: 用例--手机号格式错误--执行通过
+2020-04-06 18:27:03,971 -- [test_register.py-->line:34] - ERROR: 用例--注册成功-带注册名--执行不通过
+2020-04-06 18:27:03,972 -- [test_register.py-->line:35] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:27:03,972 -- [test_register.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:27:03,972 -- [test_register.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 31, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:27:04,290 -- [test_register.py-->line:34] - ERROR: 用例--成功-不带用户名--执行不通过
+2020-04-06 18:27:04,291 -- [test_register.py-->line:35] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:27:04,291 -- [test_register.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:27:04,291 -- [test_register.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 31, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-04-06 18:27:04,432 -- [test_register.py-->line:43] - INFO: 用例--不输入手机号--执行通过
+2020-04-06 18:27:04,561 -- [test_register.py-->line:43] - INFO: 用例--手机号长度10位--执行通过
+2020-04-06 18:27:04,672 -- [test_register.py-->line:43] - INFO: 用例--手机号长度12位--执行通过
+2020-04-06 18:27:04,772 -- [test_register.py-->line:43] - INFO: 用例--手机号含有非法字符--执行通过
+2020-04-06 18:27:05,038 -- [test_register.py-->line:43] - INFO: 用例--已注册过的手机号--执行通过
+2020-04-06 18:27:05,159 -- [test_register.py-->line:43] - INFO: 用例--密码7位--执行通过
+2020-04-06 18:27:05,261 -- [test_register.py-->line:43] - INFO: 用例--密码17位--执行通过
+2020-04-06 18:27:05,362 -- [test_register.py-->line:43] - INFO: 用例--不输入密码--执行通过
+2020-04-06 18:27:05,467 -- [test_register.py-->line:43] - INFO: 用例--注册名11位--执行通过
+2020-04-06 18:27:05,593 -- [test_register.py-->line:43] - INFO: 用例--类型输入非0，1内容--执行通过
+2020-04-06 18:27:05,857 -- [test_register.py-->line:34] - ERROR: 用例--不输入类型--执行不通过
+2020-04-06 18:27:05,858 -- [test_register.py-->line:35] - DEBUG: 预期结果：{'code': 0, 'msg': 'OK'}
+2020-04-06 18:27:05,858 -- [test_register.py-->line:36] - DEBUG: 实际结果：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-06 18:27:05,858 -- [test_register.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\day21\testcases\test_register.py", line 31, in test_register
+    self.assertEqual(expected["code"], res["code"])
+  File "E:\python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2

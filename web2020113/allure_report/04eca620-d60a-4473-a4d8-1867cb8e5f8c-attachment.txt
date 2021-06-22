@@ -1,0 +1,1 @@
+INFO     musen:test_invest.py:58 用例--请输入10的整数倍---执行通过

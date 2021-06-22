@@ -1,0 +1,1 @@
+INFO     musen:test_invest.py:82 用例--请正确填写投标金额---执行通过

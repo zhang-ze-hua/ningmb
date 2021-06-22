@@ -1,0 +1,1 @@
+INFO     musen:test_invest.py:82 用例--购买标的金额不能大于标总金额---执行通过

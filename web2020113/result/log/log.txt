@@ -1,0 +1,55 @@
+2021-05-16 14:32:29,481 -- [test_login.py-->line:20] - INFO: 用例--登录成功---执行通过
+2021-05-16 14:32:31,531 -- [test_login.py-->line:20] - INFO: 用例--登录成功---执行通过
+2021-05-16 14:32:33,344 -- [test_login.py-->line:37] - INFO: 用例--请输入手机号---执行通过
+2021-05-16 14:32:34,161 -- [test_login.py-->line:37] - INFO: 用例--请输入正确的手机号---执行通过
+2021-05-16 14:32:34,779 -- [test_login.py-->line:37] - INFO: 用例--请输入密码---执行通过
+2021-05-16 14:32:36,395 -- [test_login.py-->line:52] - INFO: 用例--帐号或密码错误!---执行通过
+2021-05-16 14:32:38,037 -- [test_login.py-->line:52] - INFO: 用例--此账号没有经过授权，请联系管理员!---执行通过
+2021-05-16 14:46:10,390 -- [test_invest.py-->line:35] - INFO: 用例--投标成功！---执行通过
+2021-05-16 14:46:24,749 -- [test_invest.py-->line:35] - INFO: 用例--投标成功！---执行通过
+2021-05-16 14:46:26,158 -- [test_invest.py-->line:58] - INFO: 用例--请输入10的整数倍---执行通过
+2021-05-16 14:46:27,077 -- [test_invest.py-->line:58] - INFO: 用例--请输入10的整数倍---执行通过
+2021-05-16 14:46:30,966 -- [test_invest.py-->line:77] - ERROR: 用例--请正确填写投标金额---执行未通过
+2021-05-16 14:46:30,966 -- [test_invest.py-->line:78] - ERROR: assert '请正确填写投标金额' == '新手奖励'
+  - 新手奖励
+  + 请正确填写投标金额
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\web2020113\testcase\test_invest.py", line 75, in test_invest_error_window
+    assert expected == res
+AssertionError: assert '请正确填写投标金额' == '新手奖励'
+  - 新手奖励
+  + 请正确填写投标金额
+2021-05-16 14:46:44,998 -- [test_invest.py-->line:77] - ERROR: 用例--购买标的金额不能大于标总金额---执行未通过
+2021-05-16 14:46:44,999 -- [test_invest.py-->line:78] - ERROR: assert '购买标的金额不能大于标总金额' == '新手奖励'
+  - 新手奖励
+  + 购买标的金额不能大于标总金额
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\web2020113\testcase\test_invest.py", line 75, in test_invest_error_window
+    assert expected == res
+AssertionError: assert '购买标的金额不能大于标总金额' == '新手奖励'
+  - 新手奖励
+  + 购买标的金额不能大于标总金额
+2021-05-16 21:55:20,162 -- [test_invest.py-->line:35] - INFO: 用例--投标成功！---执行通过
+2021-05-16 21:55:44,295 -- [test_invest.py-->line:35] - INFO: 用例--投标成功！---执行通过
+2021-05-16 21:55:45,867 -- [test_invest.py-->line:58] - INFO: 用例--请输入10的整数倍---执行通过
+2021-05-16 21:55:46,504 -- [test_invest.py-->line:58] - INFO: 用例--请输入10的整数倍---执行通过
+2021-05-16 21:55:50,367 -- [test_invest.py-->line:77] - ERROR: 用例--请正确填写投标金额---执行未通过
+2021-05-16 21:55:50,368 -- [test_invest.py-->line:78] - ERROR: assert '请正确填写投标金额' == '新手奖励'
+  - 新手奖励
+  + 请正确填写投标金额
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\web2020113\testcase\test_invest.py", line 75, in test_invest_error_window
+    assert expected == res
+AssertionError: assert '请正确填写投标金额' == '新手奖励'
+  - 新手奖励
+  + 请正确填写投标金额
+2021-05-16 21:56:04,877 -- [test_invest.py-->line:77] - ERROR: 用例--购买标的金额不能大于标总金额---执行未通过
+2021-05-16 21:56:04,877 -- [test_invest.py-->line:78] - ERROR: assert '购买标的金额不能大于标总金额' == '新手奖励'
+  - 新手奖励
+  + 购买标的金额不能大于标总金额
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\ningmengban\web2020113\testcase\test_invest.py", line 75, in test_invest_error_window
+    assert expected == res
+AssertionError: assert '购买标的金额不能大于标总金额' == '新手奖励'
+  - 新手奖励
+  + 购买标的金额不能大于标总金额
